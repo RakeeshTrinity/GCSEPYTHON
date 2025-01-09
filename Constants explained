@@ -1,0 +1,22 @@
+#Constants explained
+
+#Constants look a bit like variables
+
+#But constants are declared in full caps
+
+#For example
+
+THREEPOINTSHOT = 3
+FREE_THROW = 1
+
+#When programmers see a constant
+
+#It tells them not to change the value
+
+#To display the value in the constant
+
+#To display the value in the constant
+
+#To display the value in the constant, the code is
+
+print(THREEPOINTSHOT)
