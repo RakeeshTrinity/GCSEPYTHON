@@ -1,0 +1,32 @@
+#Data types
+#CRIBS
+Chracter = "y"
+real_float = 12.333
+integer = 545
+Boolen = true or false ("NEEDS TO BE CAPI TAL LETTER FOR FIRST ONE")
+string = "hello144534"
+
+#It is possible to maths with floats and interger
+#It  is not possible to do maths with strings  or characters
+#For example:
+
+num1 = 20
+
+num2 = 30
+
+total = num1 + num2
+print (total)
+
+num1 = "20"#string
+
+num2 = "30"#string
+
+total = num1 + num2
+
+print (total)
+
+# You can not add strings or character
+#Instead the add symbol glues them together
+#But we don't call it gluing
+# We call it concatenation
+ 
