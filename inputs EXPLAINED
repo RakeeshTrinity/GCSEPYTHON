@@ -1,0 +1,19 @@
+#Inputs explained
+# Input is a function
+# It allows a user to input data into
+# the program via the keyboards
+# It can also display strings
+# Here is a variable
+
+name = ""
+
+#Here is a variable with input
+
+name = input("Enter name")
+
+#This will display "Enter name" due tot he speech marks
+# THe use should then enter a string
+# Then press enter
+# The data entered will be stored in the variable
+# This data can be displayed later
+print(name)
