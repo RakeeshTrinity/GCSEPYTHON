@@ -17,3 +17,28 @@ name = input("Enter name")
 # The data entered will be stored in the variable
 # This data can be displayed later
 print(name)
+
+colour = ""
+colour = input("wHAT IS YOUR FAVOURITE COLOUR")
+print(colour)
+
+age = ""
+age = input("How old are you")
+print(age)
+
+print("Hello", name, "you are" ,age, "and your favourite colour is", colour,)
+
+#Casting introduced
+#Casting is a way to change data types
+#examples
+
+ageee = int(input("enter age"))
+ageInt = int(ageee)
+total = ageInt + 10
+print(total)
+
+#The following allows you to "CAST"
+int()
+str()
+float()
+
