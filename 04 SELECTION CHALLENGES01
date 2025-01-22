@@ -1,0 +1,12 @@
+#Selection coding challenge
+
+number_1 = int(input("Give me a number"))
+number_2 = int(input("Give me an another number"))
+#This will ask the person to give two numbers that will be stored in the variables number_1 and number_2
+
+if number_1 > number_2:
+    print(number_2, "," , number_1)
+#If the first number inputted is bigger than the second number inputted, number 2 will be show first and then number 1 
+else:
+    print(number_1, ",", number_2)
+#Otherwise if it isnt then number 1 will be printed first and number 2 will br printed next
