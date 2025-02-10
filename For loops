@@ -1,0 +1,12 @@
+for Singleletter in "Paris":
+    print(Singleletter)
+
+
+name = str(input("Input your name>>>"))
+for i in range(3):
+  print(name)
+
+#the "i" is replaced with zero which means only when the loop reaches the second tim
+#time will it stop printing the name which means the name will print three times
+#as it will the 0th time, 1st time, 2nd time and won't do third time as in range
+#means it will do all the times except that one 
