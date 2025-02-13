@@ -1,0 +1,6 @@
+f = int(input("Enter a number below 50"))
+n = 50
+d = -1
+for n in range(n,f,d):
+    print(n)
+ 
