@@ -1,0 +1,4 @@
+first_name = str(input("What is your first name(lower case)"))
+last_name = str(input("What is your last name(lower case)"))
+space = " "
+print(first_name + space + last_name)
