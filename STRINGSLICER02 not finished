@@ -3,5 +3,4 @@ last_name = input("What is your last name")
 space = ""
 combined_name = (first_name + space + last_name)
 print(len(combined_name))
-full = (combined_name + first_name + last_name)
-print(full)
+print(combined_name)
