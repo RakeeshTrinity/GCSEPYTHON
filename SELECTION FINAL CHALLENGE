@@ -1,0 +1,9 @@
+number_123 = int(input("Enter a number that is 1,2 or 3"))
+if number_123 == 1:
+    print("thank you")
+elif number_123 == 2:
+    print("well done your smart")
+elif number_123 == 3:
+    print("Amazing you are good at this")
+else:
+    print("really?What is wrong with you?")
