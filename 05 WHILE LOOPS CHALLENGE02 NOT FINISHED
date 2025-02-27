@@ -1,4 +1,5 @@
 num = 0
 while num < 5:
-    value = int(input())
-    print("Put another a number")
+    num = int(input("Enter a number"))
+
+print("The last number you entered was" , num )
