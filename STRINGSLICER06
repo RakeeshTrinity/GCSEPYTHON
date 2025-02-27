@@ -1,0 +1,7 @@
+name = input("Enter your name")
+length = len(name)
+if length < 5:
+    last_name = str(input("Enter last name"))
+    full = name.upper() + last_name.lower()
+    print(full)
+    
