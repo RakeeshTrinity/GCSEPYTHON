@@ -1,0 +1,6 @@
+import random
+num = random.randint(1,5)
+user_choice = int(input("Print a number"))
+if user_choice == num:
+    print("well done")
+    
