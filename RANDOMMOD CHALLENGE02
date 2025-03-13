@@ -1,0 +1,4 @@
+import random
+colours = ("blue" , "red" , "orange" , "green" , "purple")
+selected = random.choice(colours)
+print(selected)
