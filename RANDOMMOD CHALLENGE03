@@ -1,0 +1,8 @@
+import random
+coin_flip = ("H" , "T")
+coin = random.choice(coin_flip)
+guess = input("Guess, h or t")
+if guess == coin:
+    print("you win")
+else:
+    print("better luck next time")
