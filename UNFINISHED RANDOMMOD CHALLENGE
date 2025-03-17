@@ -1,6 +1,19 @@
 import random
-num = random.randint(1,5)
-user_choice = int(input("Print a number"))
+num = random.randint(1,2)
+user_choice = int(input("Enter a number between 1 and 5"))
 if user_choice == num:
     print("well done")
-    
+elif user_choice > num:
+    print("too high")
+    new_num = input("Try again")
+    if new_num > num or new_num < num:
+        print("You lose")
+    if new_num == num:
+        print("correct")
+else:
+    print("too low")
+    new_num = input("Try again")
+    if new_num > num or new_num < num:
+        print("You lose")
+    if new_num == num:
+        print("Correct")
