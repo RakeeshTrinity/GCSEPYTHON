@@ -1,0 +1,17 @@
+ask = []
+for i in range(1,4):
+    ask.append(input("Enter the names of three people they want to invite to a party"))
+question = input("Do you want to add more names")
+
+if question == "no":
+    print(ask)
+  
+else:
+    while True == True:
+        ask.append(input("Enter the names of three people they want to invite to a party"))
+        question = input("Do you want to add more names")
+        if question == "no":
+            print(ask)
+            length = len(ask)
+            print(length)
+            break
