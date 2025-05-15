@@ -1,0 +1,6 @@
+MySpaceCompany = []
+print(MySpaceCompany)
+for i in range (3):
+    MySpaceCompany.append(input("Input three types of space veichle"))
+
+print(MySpaceCompany)
