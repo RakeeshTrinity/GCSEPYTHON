@@ -1,0 +1,4 @@
+notepad = open("number.txt" , "w")
+input = input("Write five numbers of your choice as a string")
+notepad.write(input)
+notepad.close()
