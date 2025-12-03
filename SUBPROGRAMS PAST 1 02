@@ -1,0 +1,6 @@
+ask = int(input("1, 2 or 3 pick one"))
+def menu(ask):
+    print("1)Domination")
+    print("2)Team Deathmatch")
+    print("3)Headquaters")
+menu(ask)
